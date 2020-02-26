@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    <title>Calculo de edad</title>
+</head>
+
+<body bgcolor="green">
+  <script src="JS/validar.js"></script>
+
+    <form name="formulario">
+        <h1>Calcula tu edad</h1>
+      
+            <b><br>Introduce la fecha de tu nacimeinto</b><br><br>
+           
+            <input type="date" id="fecha" onKeyPress="return validarn(event)"required/></td>
+       
+
+      
+            
+                <input class="boton" type="button" id=calcular value="Calcular" onclick="return calcularEdad()" >
+           
+   
+               <br> <b>Su edad es:</b><br><br>
+                
+                <input type="text" id="cantidad" readonly="readonly" >
+    <br><br>
+            
+               <input class= "boton" type="reset"><br><br>
+     
+  </form>
+
+</body>
+</html>

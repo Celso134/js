@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    <title>Calificaciones</title>
+
+</head>
+<body bgcolor="#F8F991" >
+    <script src="JS/validar.js"></script>
+    <h1>Calificaciones de Alumno</h1>
+    <br>
+    <br>
+    <form name="form" method="GET">
+    <div>
+        <h4>Ingresa tu calificacion del Primer Parcial</h4>
+        <input type="text" name="calif" id="c1"  onpaste="return false" onkeypress="return validar(event) " maxlength="4" required > 
+    <br>
+    <br>
+    <h4>Ingresa tu calificacion del Segundo Parcial</h4>
+    <input type="text" name="calif2" id="c2"  onpaste="return false" onkeypress="return validar2(event) " maxlength="4"  required>
+    <br>
+    <br>
+    <h4>Ingresa tu calificacion del Tercer Parcial</h4>
+    <input type="text" name="calif3" id="c3" onpaste="return false" onkeypress="return validar3(event) " maxlength="4" required> 
+<br>
+
+<br>
+<h4>Ingresa tu calificacion de examen</h4>
+    <input type="text" name="calife" id="ex" onpaste="return false" onkeypress="return validar4(event) " maxlength="4" required>
+
+<h4>Ingresa tu calificacion del Proyecto Final</h4>
+    <input type="text" name="califp" id="p" onpaste="return false" onkeypress="return validar5(event) " maxlength="4" required>
+
+<h4>Tu calificacion final es</h4>
+<input type="text" name="final" id="cf" readonly="readonly">
+
+</div>
+<br>
+<input type="button" name="intere" value="calcula tu promedio" onclick="promedio()">
+</form>
+    
+</body>
+</html>

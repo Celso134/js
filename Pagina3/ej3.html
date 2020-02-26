@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<script type="text/javascript" src="JS/validaciones3.js"></script>
+	<title>Algoritmo 3</title>
+</head>
+<body bgcolor="#FF6B6B">
+
+	<p class="enun">Una tienda ofrece un descuento sobre el total de la compra. <br>
+		El cliente debe ingresar que fue lo que compro. <br>
+		El cliente tambien quiere saber cuanto va a pagar finalmente por su compra. <br></p>
+	
+		<p class="tre">Coleccionables "RED X"</p> <br>
+		<form name="formulario">
+		<select  size="1" id="liste" name="listu" >
+			<option value="" disabled selected>--SELECCIONE SU PRODUCTOS--</option>
+			<optgroup label="Figuras">
+				<option value="FunkoPop = $300" name="ch">FunkoPop</option>
+				<option value=" Marvel Legends= $500">Marvel Legends</option>
+				<option value="Dc Multiverse = $450">Dc Multiverse</option>
+				<option value="Funko Pop Exclusivo = $700">Funko Pop Exclusivo = $700</option>
+			</optgroup>
+		</select>
+		<select  size="1" id="liste" name="listu2" >
+			<option value="" disabled selected>--SELECCIONE SU PRODUCTOS--</option>
+			<optgroup label="Consolas">
+				<option value="Consola PS4= $5000">Consola PS4</option>
+				<option value="Consola Xbox one= $4000">Consola Xbox one</option>
+				<option value="Nintendo Switch = $6000">Nintendo Switch</option>
+				<option value="Zeebo = $1000">Zeebo</option>
+			</optgroup>
+		</select>
+		<select  size="1" id="liste" name="listu3" >
+		<option value="" disabled selected>--SELECCIONE SU PRODUCTOS--</option>	
+			<optgroup label="Varios">
+				<option value="Comic basico = $25">Comic Basico</option>
+				<option value="Cuadro de pared = $300">Cuadro de pared</option>
+				<option value="Joystick = $1600">Joystick </option>
+				<option value="Llavero= $120">Llavero</option>
+			</optgroup>
+		</select>
+		
+<br>
+<br>
+		 <br>
+		<input type="button" name="Enviar1" value="Terminar compra" onclick="return seleccion(event)"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br> 
+		<input type="reset" name="Reset" value="Reset">
+		<section>
+			<input type="text" name="r1" readonly="readonly" class="boxi"> <br> <br>
+			<input type="text" name="r2" readonly="readonly" class="boxi"> <br> <br>
+			<input type="text" name="r3" readonly="readonly" class="boxi"> <br> <br>
+			
+		</section> 
+		<section>
+			<label class="texte">Subtotal:</label>
+			<input type="text" name="subtotal" readonly="readonly" class="boxi"> <br>
+			<label class="texte">Descuento:</label>
+			<input type="text" name="descu" readonly="readonly" class="boxi"> <br> 
+			<label class="texte"> Total:</label>
+			<input type="text" name="total" readonly="readonly" class="boxi">
+		</section>
+		</form>
+	</div>
+</body>
+</html>

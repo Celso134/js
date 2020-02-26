@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    <title>Porcentaje de alumnos</title>
+</head>
+
+<body bgcolor="#9AB87A" >
+  <script src="JS/validar.js" ></script>
+  <form name="formu" method="GET">
+<h1>Calcular el porcentaje de alumnos Masculinos y femeninos</h1>
+<br>
+<p>Un maestro desea saber que porcentaje de hombres y que porcentaje de mujeres hay en un grupo de estudiantes.
+  
+</p>
+<br>
+<h4>Ingresa la cantidad de alummnos</h4>
+<input type="text" name="masc" id="m"  onpaste="return false" onkeypress="return validar(event) " maxlength="2" required >
+<br>
+<h4>Ingresa la cantidad de alummnas</h4>
+<input type="text" name="fem" id="f"  onpaste="return false" onkeypress="return validar(event) " maxlength="2" >
+<br>
+<h4>Tus alumnos masculinos son</h4>
+<input type="text" name="masf" id="mf" readonly="readonly" class="input_text">
+<br>
+<h4>Tus alumnas femeninas son </h4>
+<input type="text" name="femf" id="ff" readonly="readonly">
+<br>
+<h4>Tu total de alumnos son </h4>
+<input type="text" name="to" id="mf" readonly="readonly">
+<input type="button" name="intere" value="calcula los porcentajes" onclick="po()">
+
+
+
+  </form> 
+</body>
+</html>

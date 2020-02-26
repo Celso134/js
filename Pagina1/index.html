@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+	<title>Inversiones</title>
+</head>
+<body>
+	<script src="JS/validar.js"></script>
+	
+	<br>
+	<form method="get" name="formulario">
+
+				
+				<h1 class="t">Inversiones</h1>
+				<p class="t1"> Suponga que un individuo desea invertir su capital y desea
+					saber cuanto ganará de un mes si el banco paga a razón de 2% mensual.
+				</p>
+
+		
+				<p class="a">Introduce la cantidad que desea invertir </p>
+				<div class="b1">
+				<input type="text" name="cantidad"  class="b" onkeypress="return validarn(event)" onpaste="return false">
+			</div>
+				<div class="c">
+		
+				<input type="button" name="intere" value="calcula los intereses" class="c1" onclick="interes()" onpaste="return false">
+			</div>
+				<p class="ac"> La Ganancia será de: </p> 
+				<div class="c11">
+				<input type="text"  class="ac1" name="ganancia" id="gananciai" readonly="readonly" onpaste="return false">
+			</div>
+			
+				<p class="d">Su saldo final es de:</p>
+				<input type="text" name="sueldo" id="sueldoi" readonly="readonly" class="ABC" onpaste="return false">
+		
+	</form>
+
+</body>
+</html>

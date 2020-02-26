@@ -1,0 +1,60 @@
+*{
+	background-color: #009900;
+	align-items: center;
+	justify-content: center;
+	
+	color: #7FD1B9;
+
+}
+.input_text{
+	size: 16px;
+	border-width: 2px;
+	border-top-style: solid;
+	color: #009900;
+	height: 1.5rem;
+	
+
+}
+.a,.ac,.d{
+	font-family: Arial;
+	font-size: 1.5rem;
+	
+}
+.b,.ac1{
+height: 1.5rem;
+margin-left: 450px;
+
+}
+.b1{
+	margin-top: -3rem;
+}
+.c{
+	margin-top: 2rem;
+}
+.c1{
+	height: 4rem;
+	width: 12rem;
+	font-size: 1rem;
+	background-color: blue;
+}
+.ac1{
+	margin-left: 250px;
+}
+.c11{
+	margin-top: -50px;
+}
+.ABC{
+	color: black;
+}
+.t{
+	text-align: center;
+	background-color: blue;
+
+}
+.t1{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1rem;
+	text-align: center;
+	background-color: blue;
+
+}
